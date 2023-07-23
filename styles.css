@@ -1,0 +1,62 @@
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  background: url(https://cdn.discordapp.com/attachments/1052877807992193024/1132714987081695232/uhama_A_background_of_a_deep_blue_computer_screen_30e82f72-ee29-475b-84dc-472ece786e09.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  margin: 0 auto 0 auto;
+  width: 70vw;
+  max-width: 70vw;
+  min-width: 300px;
+
+}
+
+h1, #description {
+  text-align: center;
+}
+
+Form {
+  background-color:hsla(120, 20%, 13%, 0.75);
+  border: yellow solid 2px;
+  border-radius: 20px;
+  padding: 1em 1em 2em 1em;
+}
+
+#name-label, #email-label, #number-label {
+  display: block;
+  margin: 1em auto;
+}
+
+input {
+  height: 2em;
+}
+
+input[type="text"]{
+  width: 40vw;
+}
+
+input[type="email"] {
+  width: 40.3vw;
+}
+
+input[type="number"]{
+  width: 10vw;
+}
+
+.current-role, .recommend {
+  margin-bottom: 0.5em;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  vertical-align: middle;
+}
+
+#dropdown {
+  height: 2em;
+  width: 20vw;
+}
+
+textarea {
+  width: 45vw;
+}
